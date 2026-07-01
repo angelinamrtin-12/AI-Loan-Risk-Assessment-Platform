@@ -1,0 +1,42 @@
+{
+  "logistic_regression": {
+    "accuracy": 92.0,
+    "precision": 93.88,
+    "recall": 96.24,
+    "f1": 95.05,
+    "roc_auc": 0.975,
+    "training_time": 0.03
+  },
+  "random_forest": {
+    "accuracy": 93.0,
+    "precision": 93.69,
+    "recall": 97.81,
+    "f1": 95.71,
+    "roc_auc": 0.971,
+    "training_time": 0.321
+  },
+  "xgboost": {
+    "accuracy": 91.5,
+    "precision": 94.67,
+    "recall": 94.67,
+    "f1": 94.67,
+    "roc_auc": 0.965,
+    "training_time": 0.135
+  },
+  "svm": {
+    "accuracy": 92.25,
+    "precision": 93.37,
+    "recall": 97.18,
+    "f1": 95.24,
+    "roc_auc": 0.974,
+    "training_time": 0.211
+  },
+  "naive_bayes": {
+    "accuracy": 92.5,
+    "precision": 93.39,
+    "recall": 97.49,
+    "f1": 95.4,
+    "roc_auc": 0.969,
+    "training_time": 0.002
+  }
+}

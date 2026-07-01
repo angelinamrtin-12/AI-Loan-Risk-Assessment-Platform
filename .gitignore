@@ -1,0 +1,26 @@
+backend/venv/
+backend/__pycache__/
+backend/*/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+backend/.env
+backend/loan_platform.db
+
+venv
+
+ml/saved_models/*.pkl
+ml/dataset/*.csv
+
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/.env*
+
+# ---- OS / Editor ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
